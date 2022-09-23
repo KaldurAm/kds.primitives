@@ -59,7 +59,7 @@ public class Result
 	/// <param name="error"></param>
 	/// <typeparam name="TValue"></typeparam>
 	/// <returns></returns>
-	public static Result<TValue> Create<TValue>(TValue value, Error error)
+	public static Result<TValue> Create<TValue>(TValue? value, Error error)
 		where TValue : class => value is null ? Failure<TValue>(error) : Success(value);
 
 	/// <summary>
