@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\KDS.Primitives.Abstraction\KDS.Primitives.Abstraction.csproj" />
+    <ProjectReference Include="..\..\src\KDS.Primitives.FluentApiResponse\KDS.Primitives.FluentApiResponse.csproj" />
     <ProjectReference Include="..\..\src\KDS.Primitives.FluentResult\KDS.Primitives.FluentResult.csproj" />
   </ItemGroup>
 

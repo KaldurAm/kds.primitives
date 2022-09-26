@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8B9FDC9A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDS.Primitives.UnitTests", "tests\KDS.Primitives.UnitTests\KDS.Primitives.UnitTests.csproj", "{D19DFD1F-4E50-4026-8B66-ABB70AE3B2D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDS.Primitives.FluentApiResponse", "src\KDS.Primitives.FluentApiResponse\KDS.Primitives.FluentApiResponse.csproj", "{D6AC74A5-3309-4245-A19A-83CADB0BE2A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,10 +36,15 @@ Global
 		{D19DFD1F-4E50-4026-8B66-ABB70AE3B2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19DFD1F-4E50-4026-8B66-ABB70AE3B2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19DFD1F-4E50-4026-8B66-ABB70AE3B2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AC74A5-3309-4245-A19A-83CADB0BE2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AC74A5-3309-4245-A19A-83CADB0BE2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AC74A5-3309-4245-A19A-83CADB0BE2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AC74A5-3309-4245-A19A-83CADB0BE2A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F254C9E6-1D62-453F-A199-9F0212AB2BF3} = {F04795E5-5D86-43C2-9D0E-80AE41F5CCAB}
 		{709EC02B-11C4-467D-8C29-C8A50470E0DE} = {F04795E5-5D86-43C2-9D0E-80AE41F5CCAB}
 		{D19DFD1F-4E50-4026-8B66-ABB70AE3B2D1} = {8B9FDC9A-62D8-493C-8720-2FD3252A47BB}
+		{D6AC74A5-3309-4245-A19A-83CADB0BE2A4} = {F04795E5-5D86-43C2-9D0E-80AE41F5CCAB}
 	EndGlobalSection
 EndGlobal
